@@ -1,92 +1,100 @@
 <html>
   <head>
-    <title>Profile</title>
+    <title>Vincent</title>
     <meta charset="utf-8">
     <!-- Fontawesome Stylesheet -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Montserrat|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
     <div class="container">
-      <div class="card txt-center">
-        <div>
-          <img src="images/VS.jpg" alt="VS" class="img-avatar">
-          <h1>Vincent Stammbach</h1>
-          <h2>Co-fondateur Start-Up Insurtech et étudiant @LeWagon</h2>
-          <p class="txt-justify">
-            Après 14ans d'expérience professionnelle (conseil en stratégie, pilotage de plan de transformation, management de business unit digitale), j'ai décidé de <strong>monter ma Start-Up</strong> et de passer mon été au Wagon pour coder mon MVP.
-          </p>
-        </div>
-        <div class="btn-medium"><a href="https://www.linkedin.com/in/vincent-stammbach/" target="_blank">En savoir plus</a></div>
-      </div>
-
-      <div class="card">
-        <h2>Me contacter</h2>
-        <ul class="list-inline txt-big">
-          <li>
-            <a href="https://www.linkedin.com/in/vincent-stammbach/" target="_blank">
-              <i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/vincentsta" target="_blank">
-              <i class="fa fa-github" aria-hidden="true"></i> Github
-            </a>
-          </li>
-          <li>
-            <a href="mailto:vincent.stammbach@gmail.com" target="_blank">
-              <i class="fa fa-envelope-o" aria-hidden="true"></i> email
-            </a>
-          </li>
+      <div id="sidebar" class="nav-bar">
+        <ul>
+          <li><a href="#profile"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+          <li><a href="#contact"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+          <li><a href="#series"><i class="fa fa-film" aria-hidden="true"></i></a></li>
         </ul>
       </div>
+      <div id="page-content">
+        <div class="card txt-center" id="profile">
+          <div>
+            <img src="images/VS.jpg" alt="VS" class="img-avatar">
+            <h1>Vincent Stammbach</h1>
+            <h2>Co-fondateur Start-Up Insurtech et étudiant @LeWagon</h2>
+            <p class="txt-justify txt-padding">
+              Après 14ans d'expérience professionnelle (conseil en stratégie, pilotage de plan de transformation, management de business unit digitale), j'ai décidé de <strong>monter ma Start-Up</strong> et de passer mon été au Wagon pour coder mon MVP.
+            </p>
+          </div>
+          <div class="btn-medium"><a href="https://www.linkedin.com/in/vincent-stammbach/" target="_blank">En savoir plus</a></div>
+        </div>
 
-      <div class="card">
-        <h2>Mes séries préférées</h2>
-        <table class="table-spacing">
-          <tbody>
-            <tr>
-              <td>
-                <img src="images/breaking_bad.jpeg" alt="breaking bad">
-              </td>
-              <td>
-                <h2>Breaking Bad</h2>
-                <p class="txt-small">
-                  Walter « Walt » White est professeur de chimie dans un lycée, et vit avec son fils handicapé et sa femme enceinte à Albuquerque, au Nouveau-Mexique. Lorsqu'on lui diagnostique un cancer du poumon en phase terminale avec une espérance de vie estimée à deux ans, tout s'effondre pour lui. Il décide alors de mettre en place un laboratoire et un trafic de méthamphétamine pour assurer un avenir financier confortable à sa famille après sa mort, en s'associant à Jesse Pinkman, un de ses anciens élèves devenu petit trafiquant.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="images/silicon_valley.jpg" alt="silicon valley">
-              </td>
-              <td>
-                <h2>Silicon Valley</h2>
-                <p class="txt-small">
-                  La série décrit les aventures de quatre programmeurs vivant ensemble et essayant de percer dans la Silicon Valley, en Californie. Ils travaillent dans un incubateur d'entreprises, le Hacker Hostel, géré par Erlich Bachman. L'un d'eux, Richard Hendricks, va créer un algorithme de compression révolutionnaire qui sera très vite convoité par deux milliardaires : Peter Gregory et Gavin Belson. Richard doit choisir, vendre sa découverte au CEO de Hooli, Gavin Belson, ou bien laisser Peter Gregory investir dans sa future société en échange d'un retour sur les futurs bénéfices.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="images/jordskott.jpeg" alt="jordskott">
-              </td>
-              <td>
-                <h2>Jordskott</h2>
-                <p class="txt-small">
-                  Eva Thörnblad est négociatrice au sein des forces spéciales de la police de Stockholm. Suite à la mort de son père, mais aussi à la disparition mystérieuse d'un jeune garçon, elle retourne dans la petite ville de Silverhöjd, où sa propre fille Joséphine a disparu sept ans plus tôt, sans que son corps ne soit jamais retrouvé. Convaincue qu'il existe un lien entre cette nouvelle disparition et celle de sa fille, Eva décide de reprendre l'enquête.
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+        <div class="card txt-center" id="contact">
+          <ul class="list-inline txt-padding">
+            <li>
+              <a href="https://www.linkedin.com/in/vincent-stammbach/" target="_blank">
+                <i class="fa fa-linkedin" aria-hidden="true"></i><br>Linkedin
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/vincentsta" target="_blank">
+                <i class="fa fa-github" aria-hidden="true"></i><br>Github
+              </a>
+            </li>
+            <li>
+              <a href="mailto:vincent.stammbach@gmail.com" target="_blank">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i><br>email
+              </a>
+            </li>
+          </ul>
+        </div>
 
-      <div class="card">
-        <h2>About this page</h2>
-        <p>Réalisée au Wagon</p>
+        <div class="card txt-center" id="series">
+          <h2>Mes séries préférées</h2>
+          <table class="table-spacing">
+            <tbody>
+              <tr>
+                <td>
+                  <img src="images/breaking_bad.jpeg" alt="breaking bad">
+                </td>
+                <td>
+                  <h2>Breaking Bad</h2>
+                  <p class="txt-small">
+                    Walter « Walt » White est professeur de chimie dans un lycée, et vit avec son fils handicapé et sa femme enceinte à Albuquerque, au Nouveau-Mexique. Lorsqu'on lui diagnostique un cancer du poumon en phase terminale avec une espérance de vie estimée à deux ans, tout s'effondre pour lui. Il décide alors de mettre en place un laboratoire et un trafic de méthamphétamine pour assurer un avenir financier confortable à sa famille après sa mort, en s'associant à Jesse Pinkman, un de ses anciens élèves devenu petit trafiquant.
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="images/silicon_valley.jpg" alt="silicon valley">
+                </td>
+                <td>
+                  <h2>Silicon Valley</h2>
+                  <p class="txt-small">
+                    La série décrit les aventures de quatre programmeurs vivant ensemble et essayant de percer dans la Silicon Valley, en Californie. Ils travaillent dans un incubateur d'entreprises, le Hacker Hostel, géré par Erlich Bachman. L'un d'eux, Richard Hendricks, va créer un algorithme de compression révolutionnaire qui sera très vite convoité par deux milliardaires : Peter Gregory et Gavin Belson. Richard doit choisir, vendre sa découverte au CEO de Hooli, Gavin Belson, ou bien laisser Peter Gregory investir dans sa future société en échange d'un retour sur les futurs bénéfices.
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="images/jordskott.jpeg" alt="jordskott">
+                </td>
+                <td>
+                  <h2>Jordskott</h2>
+                  <p class="txt-small">
+                    Eva Thörnblad est négociatrice au sein des forces spéciales de la police de Stockholm. Suite à la mort de son père, mais aussi à la disparition mystérieuse d'un jeune garçon, elle retourne dans la petite ville de Silverhöjd, où sa propre fille Joséphine a disparu sept ans plus tôt, sans que son corps ne soit jamais retrouvé. Convaincue qu'il existe un lien entre cette nouvelle disparition et celle de sa fille, Eva décide de reprendre l'enquête.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="card" id="about">
+          <h2>About</h2>
+          <p>Réalisée au Wagon</p>
+        </div>
       </div>
     </div>
   </body>

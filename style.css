@@ -7,14 +7,14 @@ body {
   line-height: 1.1em;
   /*line-height: 18px;*/
 }
-h1, h2, h3 {
+h1, h2 {
   font-family: 'Montserrat', sans-serif;
-  color: #0B5269;
   letter-spacing: 0.05em;
   line-height: 1.1em;
 }
 h1 {
   font-size: : 36px;
+  color: #0B5269;
 }
 h2 {
   font-size: 20px;
@@ -25,7 +25,7 @@ a {
   color: #03051E;
 }
 a:hover {
-  color: #978D58;
+  color: #0B5269;
 }
 /*styles*/
 .container {
@@ -76,6 +76,11 @@ a:hover {
 .txt-justify {
   text-align: justify;
 }
+.txt-padding {
+  padding: 0% 5%;
+  line-height: 1.5em;
+}
+
 .list-inline {
   text-align: center;
   padding-left: 0px;
@@ -83,7 +88,7 @@ a:hover {
 
 .list-inline > li {
   display: inline-block;
-  padding: 0px 5%;
+  padding: 0px 3%;
 }
 
 .img-avatar {
@@ -103,6 +108,30 @@ a:hover {
   text-align: justify;
   /*line-height: 15px;*/
 }
+
+#sidebar {
+  position: fixed;
+  width: 30px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#page-content {
+  margin-left: 40px;
+}
+
+.nav-bar {
+  padding-left: 0px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 3em;
+}
+
+.nav-bar li {
+  list-style: none;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -120,6 +149,9 @@ a:hover {
   .txt-small {
     font-size: 8px;
   }
+  #sidebar {
+    visibility: hidden;
+  }
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
@@ -128,5 +160,8 @@ a:hover {
   }
   .txt-small {
     font-size: 0px;
+  }
+  #sidebar {
+    visibility: hidden;
   }
 }
